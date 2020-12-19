@@ -10,7 +10,7 @@ sudo nano /etc/apt/sources.list
 ```
 Then, add the following line.
 ```
-deb https://blog.iamjsy.com/packages buster main
+deb https://blog.iamsjy.com/packages buster main
 ```
 Save this file, then refresh the apt configuration.
 ```
