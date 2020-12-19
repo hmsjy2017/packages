@@ -16,6 +16,27 @@
 	}
 </style>
 <article class="markdown-body">
-	<h1>Tony's personal Debian package repository</h1>
-	<p>All the things</p>
+        <h1>Tony's personal Debian package repository</h1>
+        <h2>Introduction</h2>
+        <p>The repository is used to collect some Debian packages whinch are not in the official repo.</p>
+        <h2>Usage</h2>
+        <p>Edit <code>/etc/apt/sources.list</code></p>
+        
+        <pre lang="no-highlight"><code>```sudo nano /etc/apt/sources.list
+        ```
+        </code></pre>
+	
+        <p>Then, add the following line.</p>
+	
+	 <pre lang="no-highlight"><code>```deb https://blog.iamjsy.com/packages buster main
+        ```
+        </code></pre>
+	
+        <p>Save this file, then refresh the apt configuration.</p>
+	<pre lang="no-highlight"><code>```sudo apt update
+        ```
+        </code></pre>
+
+	<p>Now you can use <code>sudo apt install PACKAGE_NAME<code> to install packages from the repo.</p>
+	
 </article>
