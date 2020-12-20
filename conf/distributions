@@ -5,3 +5,4 @@ Codename: buster
 Architectures: armhf
 Components: main
 Description: Debian ARM packages hosted on GitHub repository
+SignWith: DD53B73E766B596C
