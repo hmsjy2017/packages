@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: https://github.com/hmsjy2017/packages
+Label: https://github.com/hmsjy2017/packages
+Architecture: armhf
+Description: Debian ARM packages hosted on GitHub repository

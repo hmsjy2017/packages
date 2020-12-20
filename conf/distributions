@@ -1,0 +1,7 @@
+Origin: https://github.com/hmsjy2017/packages
+Label: https://github.com/hmsjy2017/packages
+Suite: stable
+Codename: buster
+Architectures: armhf
+Components: main
+Description: Debian ARM packages hosted on GitHub repository

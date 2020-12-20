@@ -1,0 +1,114 @@
+Package: blockpi
+Version: 1.1.5
+License: Apache-2.0
+Vendor: Zhang Yiwei <alienzhangyw@live.cn>
+Architecture: armhf
+Maintainer: Zhang Yiwei <alienzhangyw@live.cn>
+Installed-Size: 128458
+Depends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, python3-gpiozero, sense-hat, python3-sense-emu, sense-emu-tools, python3-picamera
+Homepage: https://github.com/alienzhangyw/BlockPi
+Priority: extra
+Section: default
+Filename: pool/main/b/blockpi/blockpi_1.1.5_armhf.deb
+Size: 46795756
+SHA256: 0076424274d326ba847874d0778679fc1923b4659d0100f8db63374037e7f95f
+SHA1: 1c0a77b7497696fc4ad1eddcd89d59042be625bd
+MD5sum: 4a9a38860b961c97cf18fe51a54afb11
+Description: 
+  A visual programming editor for Raspberry Pi
+
+Package: code
+Version: 1.52.1-1608136275
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Architecture: armhf
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Homepage: https://code.visualstudio.com/
+Installed-Size: 212264
+Provides: visual-studio-code
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Priority: optional
+Section: devel
+Filename: pool/main/c/code/code_1.52.1-1608136275_armhf.deb
+Size: 60667760
+SHA256: 35fbc1e755e12c917686ccbb70bc52baef42eab07f2b22c83886b7979f9b3330
+SHA1: f0a708ff3b19540c143d11d464a14e4b00a178cd
+MD5sum: 0396e737671a427cdce32d198b421d7c
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code-oss
+Version: 1.45.0-1586135927
+Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1
+Architecture: armhf
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Homepage: https://code.visualstudio.com/
+Installed-Size: 231658
+Provides: visual-studio-code-oss
+Conflicts: visual-studio-code-oss
+Replaces: visual-studio-code-oss
+Priority: optional
+Section: devel
+Filename: pool/main/c/code-oss/code-oss_1.45.0-1586135927_armhf.deb
+Size: 60679656
+SHA256: 5f4abdba3e001024ef94bfa01f585bc81f40ac5d98899a6967f9ca0b50213075
+SHA1: 8d9c1e73bf9061412a1f725c934d7337b5352e26
+MD5sum: c0e0d75e91fe7e363bfafec253b21767
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: codium
+Version: 1.52.1-1608165450
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Architecture: armhf
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Homepage: https://code.visualstudio.com/
+Installed-Size: 208013
+Provides: visual-studio-codium
+Conflicts: visual-studio-codium
+Replaces: visual-studio-codium
+Priority: optional
+Section: devel
+Filename: pool/main/c/codium/codium_1.52.1-1608165450_armhf.deb
+Size: 62120788
+SHA256: 8ad39cdc9c4fc5c405cce1764ef68d08d7f06e884ef0c7f22cdf0ac74be394d3
+SHA1: 762cfe2356556b411039672fe1b4b5d2ea38a6f7
+MD5sum: 5ad12615b8da4a2a8ee4cdf6bee89743
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: com.github.johnfactotum.foliate
+Version: 2.4.2
+Architecture: all
+Maintainer: John Factotum <50942278+johnfactotum@users.noreply.github.com>
+Installed-Size: 4533
+Depends: gjs (>= 1.52), gir1.2-webkit2-4.0
+Recommends: python (>= 2.7) | python3 (>= 3.4), gir1.2-gspell-1, gir1.2-handy-0.0, iso-codes (>= 3.67)
+Suggests: gir1.2-tracker-2.0, espeak, festival, sdcv, dictd, dictd-dictionary, hyphen-af, hyphen-as, hyphen-bg, hyphen-bn, hyphen-ca, hyphen-cs, hyphen-da, hyphen-de, hyphen-el, hyphen-en-ca, hyphen-en-gb, hyphen-en-us, hyphen-es, hyphen-fi, hyphen-fr, hyphen-ga, hyphen-gl, hyphen-gu, hyphen-hi, hyphen-hr, hyphen-hu, hyphen-id, hyphen-is, hyphen-it, hyphen-kn, hyphen-lt, hyphen-lv, hyphen-ml, hyphen-mr, hyphen-nl, hyphen-no, hyphen-or, hyphen-pa, hyphen-pl, hyphen-pt-br, hyphen-pt-pt, hyphen-ro, hyphen-ru, hyphen-show, hyphen-sk, hyphen-sl, hyphen-sr, hyphen-sv, hyphen-ta, hyphen-te, hyphen-uk, hyphen-zu
+Priority: optional
+Section: gnome
+Filename: pool/main/c/com.github.johnfactotum.foliate/com.github.johnfactotum.foliate_2.4.2_all.deb
+Size: 794632
+SHA256: 49e71394fd8602d440ad3589af2b16b739e31521a2afb2ed1c4b7614bfa95b6d
+SHA1: 87d91ee248f8cbe1e6567efffd997098af80c883
+MD5sum: 62897b98046fedca290cddb56b3ca04c
+Description: Simple and modern eBook viewer.
+ A simple and modern GTK eBook viewer, built with GJS and Epub.js.
+
+Package: v2raya
+Version: 1.1.3
+License: unknown
+Vendor: travis@travis-job-f48aaddc-411e-4400-880e-da7a427c1e37
+Architecture: armhf
+Maintainer: v2rayA
+Installed-Size: 18956
+Homepage: https://github.com/v2rayA/v2raya
+Priority: extra
+Section: default
+Filename: pool/main/v/v2raya/v2raya_1.1.3_armhf.deb
+Size: 7407698
+SHA256: 7f4020c217618bdf02d7df1c552d9042ff8eb88c1d3419eb291acf9cefc3fc5e
+SHA1: 7e9d3fb7bab3ecc313f576b20ff591d85b0b7275
+MD5sum: f96a09787da3ecdbc9cd5d5e8c512378
+Description: A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan and Pingtunnel protocols.
+
