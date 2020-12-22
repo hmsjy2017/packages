@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: https://github.com/hmsjy2017/packages
 Label: https://github.com/hmsjy2017/packages
 Suite: stable
@@ -18,3 +21,19 @@ SHA256:
  5a4b37526fd5deff63c61531b2270ca28b02a5fff46a48447640b3d241c3fbb9 5518 main/binary-armhf/Packages
  bcf8895b22718b5ab2e03e96c702cf7a4defcf6a87889fb572bc056aa731e179 2031 main/binary-armhf/Packages.gz
  7662b494031ae6b515454aa8d1cec7b0b4be0685bc8a6e6b30e7d012eb07ab47 204 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE0XBDqTHEoPZqmKiu2WsxHRHeCvoFAl/iDicACgkQ2WsxHRHe
+Cvr2bw//UB/sCxUFUnCDzizsiLT5Tygg3EXw3o1ZqECXDRHuHKXGAaFcOcsUjl4p
+deM6waTR5Ep0IRaiig3ooSWPNNpiP/u6+cLvi1T3KEUtT4fJCq2Zxl0EG8FQdirb
+DMYol/SLkz+QnmQyZj/IUnqAP7EiQP/HZTS1mcpFMCsZ6Yak0l1uIuDgNcA0TLfu
+X8Gl+JxupQkdcswuhe2wlUkF32emg1eUwGAmwEui+L5NKG251Jr6TlEajF8HFkW3
+ArVL3xpNvOKMqkPXk+M10gKhzZb3kSxD3IQk460fNHd/BgMmDjpzNEQPYjCt4oCd
+vy2lb/UYFvzbRXcpi5LcQWBBjLV8hvss1UGNgl7XVu/3u2zAfn1ibVV3A8zAxk/R
+JWkb09nEatogXwym4WiML7DTuNa2VZI0abeqqmhrBx92RNpWgYTqtBv7S5a2hi+w
+9UbMMURex85wenVVhdFwPsypMTAkuNSRrWkG0IMmquIbpRYl+Swe/xLUxU0+oVfu
+rw2ue8xwJ4x3CgbtbIH+3dMZWsHfBeU7I0YIy7enw2+1fubGJU0iIy+5AWtaPiUo
+/8/GeyDmLyMzUfONfiWbDiKvm1PDQpMEsoZL3wae3+OP6kAHSdAq5x/Zt6z2M4z+
+hM6j6Xt5h+YtoGmVOuf6zu0/11rZjsdAVSoPTOeFBhQNdVqN56w=
+=rZOy
+-----END PGP SIGNATURE-----
