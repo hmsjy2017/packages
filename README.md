@@ -28,11 +28,11 @@ Now you can use `sudo apt install PACKAGE_NAME` to install packages from the rep
 If the speed is too slow, you can try the [mirror addresses](#mirrors).
 
 ## Mirrors
-Coding (Recommended for Chinese users)
+* Coding (Recommended for Chinese users)
 ```
 https://iamsjy.coding.net/p/packages/d/packages/git/raw/main/
 ```
-Vercel
+* Vercel
 ```
 https://apt.now.sh/
 ```
