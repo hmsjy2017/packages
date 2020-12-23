@@ -24,3 +24,7 @@ sudo apt update
 Now you can use `sudo apt install PACKAGE_NAME` to install packages from the repo.
 
 (Replace `PACKAGE_NAME` with the name of the package you want to install)
+
+## Mirrors
+
+[Coding](https://iamsjy.coding.net/p/packages/d/packages/git/raw/main/)
