@@ -24,10 +24,11 @@ sudo apt update
 Now you can use `sudo apt install PACKAGE_NAME` to install packages from the repo.
 
 (Replace `PACKAGE_NAME` with the name of the package you want to install)
+
 If the speed is too slow, you can try the [mirror addresses](#mirrors).
 
 ## Mirrors
-Coding (Recommended)
+Coding (Recommended for Chinese users)
 ```
 https://iamsjy.coding.net/p/packages/d/packages/git/raw/main/
 ```
