@@ -15,7 +15,16 @@ jobs:
 
     - name: Run Start Script
       run: source ubuntu-start.sh
-
+      
+    - name: Setup SSH Private Key
+      env:
+        HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa 
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        
     - name: Start SSH via ngrok
       uses: P3TERX/ssh2actions@main
       with:
@@ -26,18 +35,6 @@ jobs:
         SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
         #TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         #TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        
-    - name: commit
-      run: |
-        git config --global user.name "hmsjy2017"
-        git config --global user.email "1462668901@qq.com"
-        git add .
-        git commit -m "update" -a
-        
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Run End Script
       run: source ubuntu-end.sh
