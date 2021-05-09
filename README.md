@@ -32,7 +32,11 @@ If the speed is too slow, you can try the [mirror addresses](#mirrors).
 ```
 https://iamsjy.coding.net/p/packages/d/packages/git/raw/main/
 ```
+* Netlify
+```
+https://debian-packages.netlify.app/
+```
 * Vercel
 ```
-https://apt.now.sh/
+https://apt.vercel.app/
 ```
