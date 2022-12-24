@@ -24,13 +24,13 @@
 	
         <h2>Usage</h2>
 	<p>Add the public GPG key to the apt sources keyring.</p>
-        <pre lang="no-highlight"<code>wget -qO - https://blog.iamsjy.com/packages/public.key  | sudo apt-key add -</code></pre>
+        <pre lang="no-highlight"<code>wget -qO - https://hmsjy2017.github.io/packages/public.key  | sudo apt-key add -</code></pre>
 
         <p>Edit <code>/etc/apt/sources.list</code></p>
 	<pre lang="no-highlight"><code>sudo nano /etc/apt/sources.list</code></pre>
 	
 	<p>Then, add the following line.</p>
-	<pre lang="no-highlight"><code>deb https://blog.iamsjy.com/packages buster main</code></pre>
+	<pre lang="no-highlight"><code>deb https://hmsjy2017.github.io/packages buster main</code></pre>
 	
         <p>Save this file, then refresh the apt configuration.</p>
 	<pre lang="no-highlight"><code>sudo apt update</code></pre>
@@ -40,10 +40,10 @@
         <p>If the speed is too slow, you can try the <a href="#mirrors">mirror addresses</a>.</p>
 
         <h2><div id="mirrors">Mirrors</div></h2>
-        <li>Coding (Recommended for Chinese users)</li>
-        <pre lang="no-highlight"><code>https://iamsjy.coding.net/p/packages/d/packages/git/raw/main/</code></pre>
+        <li>Netlify</li>
+        <pre lang="no-highlight"><code>https://debian-packages.netlify.app/</code></pre>
 
         <li>Vercel</li>
-        <pre lang="no-highlight"><code>https://apt.now.sh/</code></pre>
+        <pre lang="no-highlight"><code>https://apt.vercel.app/</code></pre>
 
 </article>
