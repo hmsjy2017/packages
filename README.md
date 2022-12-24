@@ -6,7 +6,7 @@ The repository is used to collect some Debian packages whinch are not in the off
 ## Usage
 Add the public GPG key to the apt sources keyring.
 ```
-wget -qO - https://blog.iamsjy.com/packages/public.key  | sudo apt-key add -
+wget -qO - https://hmsjy2017.github.io/packages/public.key  | sudo apt-key add -
 ```
 
 Edit `/etc/apt/sources.list`
@@ -15,7 +15,7 @@ sudo nano /etc/apt/sources.list
 ```
 Then, add the following line.
 ```
-deb https://blog.iamsjy.com/packages buster main
+deb https://hmsjy2017.github.io/packages buster main
 ```
 Save this file, then refresh the apt configuration.
 ```
@@ -28,10 +28,7 @@ Now you can use `sudo apt install PACKAGE_NAME` to install packages from the rep
 If the speed is too slow, you can try the [mirror addresses](#mirrors).
 
 ## Mirrors
-* Coding (Recommended for Chinese users)
-```
-https://iamsjy.coding.net/p/packages/d/packages/git/raw/main/
-```
+
 * Netlify
 ```
 https://debian-packages.netlify.app/
